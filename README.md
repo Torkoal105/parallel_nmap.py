@@ -36,7 +36,7 @@ python parallel_nmap_portscan_only.py -t 192.168.100.0/24 -a "-sV -sT -T5 -p- --
 ```
 type nmap.txt #results
 ```
-On my network "192.168.0.0/24" it takes a minute to scan.
+On my network "192.168.100.0/24" it takes a minute to scan.
 
 --------------------------------------------------------------------------------
 
