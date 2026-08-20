@@ -23,8 +23,7 @@ win + r sysdm.cpl > Advanced > Environment Variables > New > _ > OK > OK
 Variable name: nmap.exe
 Variable value: C:\Program Files (x86)\Nmap\nmap.exe
 
-#if it doesn't work:
-Environment variables > System variables > Path > Edit > Browse Directory > C:\Program Files (x86)\Nmap\
+win + r sysdm.cpl > Advanced > Environment Variables > System variables > Path > Edit > Browse Directory > C:\Program Files (x86)\Nmap\
 Variable name: nmap.exe
 Variable value: C:\Program Files (x86)\Nmap\
 
