@@ -8,10 +8,10 @@ sudo python3 parallel_nmap.py -t 192.168.100.0/24 -a "-sV -sT -T5 -p- --host-tim
 usage - parallel normal udp (slow):
 sudo python3 parallel_nmap.py -t 192.168.100.0/24 -a "-sV -sU -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
 
-usage - parallel disruptive tcp (fast):
+usage - parallel disruptive tcp (fast)(disruptive):
 sudo python3 parallel_nmap.py -t 192.168.100.0/24 -a "-sV -sT -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s --min-parallelism 50000 --max-rtt-timeout 1500ms --min-rate 4500"
 
-usage - parallel disruptive udp (normal):
+usage - parallel disruptive udp (normal)(disruptive):
 sudo python3 parallel_nmap.py -t 192.168.100.0/24 -a "-sV -sU -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s --min-parallelism 50000 --max-rtt-timeout 1500ms --min-rate 4500"
 
 -p- = all 65535 ports
