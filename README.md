@@ -29,7 +29,9 @@ win + r sysdm.cpl > Advanced > Environment Variables > System variables > Path >
 
 ##### run scanner
 powershell
+
 cd C:\Users\$Env:UserName\Desktop
+
 python parallel_nmap_portscan_only.py -t 192.168.0.0/24 -a "-sV -sT -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
 
 type nmap.txt #results
