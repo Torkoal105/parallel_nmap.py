@@ -55,6 +55,8 @@ sudo python3 parallel_nmap_portscan_only.py -t 192.168.100.0/24 -a "-sV -sT -T5 
 
 sudo python3 parallel_nmap_portscan_only.py -t 192.168.100.0/24 -a "-sV -sU -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
 
+
+
 ###### otherwise install:
 sudo apt install -y python3 nmap
 
