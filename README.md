@@ -20,12 +20,12 @@ https://www.python.org/downloads/
 
 ##### install nmap on path
 win + r sysdm.cpl > Advanced > Environment Variables > New > _ > OK > OK
-Variable name: nmap.exe
-Variable value: C:\Program Files (x86)\Nmap\nmap.exe
+- Variable name: nmap.exe
+- Variable value: C:\Program Files (x86)\Nmap\nmap.exe
 
 win + r sysdm.cpl > Advanced > Environment Variables > System variables > Path > Edit > Browse Directory > C:\Program Files (x86)\Nmap\
-Variable name: nmap.exe
-Variable value: C:\Program Files (x86)\Nmap\
+- Variable name: nmap.exe
+- Variable value: C:\Program Files (x86)\Nmap\
 
 ##### run scanner
 powershell
