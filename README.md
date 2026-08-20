@@ -42,11 +42,11 @@ On my network "192.168.0.0/24" it takes a minute to scan.
 
 ### Linux install (KALI)
 It works out of the box.
-
+```
 git clone https://github.com/Torkoal105/parallel_nmap.py.git
 
 cd parallel_nmap.py
-
+```
 - usage - parallel normal tcp (normal):
 
 sudo python3 parallel_nmap_portscan_only.py -t 192.168.100.0/24 -a "-sV -sT -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
