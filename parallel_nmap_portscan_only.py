@@ -22,7 +22,7 @@ Usage examples:
     
     # Scan a /24 subnet (up to 254 hosts), nmap args "-sV -sT -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
     # normal nmap tcp synchronously
-    python3 new_only_portscan.py -t 192.168.178.0/24 -a "-sV -sT -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
+    python3 new_only_portscan.py -t 192.168.0.0/24 -a "-sV -sT -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
 """
 
 import argparse
