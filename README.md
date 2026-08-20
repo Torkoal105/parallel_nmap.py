@@ -11,14 +11,14 @@ parallel running nmap scans (speed up), no discovery
 --------------------------------------------------------------------------------
 
 ### Windows 11 Install
-# install nmap
+##### install nmap
 https://nmap.org/download#windows
 
-# install python
+##### install python
 https://www.python.org/downloads/
 #say yes to "install on path"
 
-# install nmap on path
+##### install nmap on path
 win + r sysdm.cpl > Advanced > Environment Variables > New > _ > OK > OK
 Variable name: nmap.exe
 Variable value: C:\Program Files (x86)\Nmap\nmap.exe
@@ -27,7 +27,7 @@ Environment variables > System variables > Path > Edit > Browse Directory > C:\P
 Variable name: nmap.exe
 Variable value: C:\Program Files (x86)\Nmap\
 
-# run scanner
+##### run scanner
 powershell
 cd C:\Users\$Env:UserName\Desktop
 python parallel_nmap_portscan_only.py -t 192.168.0.0/24 -a "-sV -sT -T5 -p- --host-timeout 30s --max-rtt-timeout 30s --initial-rtt-timeout 30s"
