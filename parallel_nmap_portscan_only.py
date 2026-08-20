@@ -9,10 +9,10 @@ view, but each host scan runs in parallel under the hood).
 
 Usage examples:
     # Scan a /24 subnet (up to 254 hosts), default nmap args "-sV -T4"
-    python3 nmap_parallel_scan.py -t 192.168.178.0/24
+    python3 nmap_parallel_scan.py -t 192.168.0.0/24
 
     # Custom nmap flags (quote the whole string)
-    python3 nmap_parallel_scan.py -t 192.168.178.0/24 -a "-sV -sT -T5 -p-"
+    python3 nmap_parallel_scan.py -t 192.168.0.0/24 -a "-sV -sT -T5 -p-"
 
     # Scan an explicit list of hosts from a file, one per line
     python3 nmap_parallel_scan.py --hosts-file hosts.txt -a "-sV -T4"
