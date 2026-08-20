@@ -44,6 +44,7 @@ On my network "192.168.0.0/24" it takes a minute to scan.
 It works out of the box.
 
 git clone https://github.com/Torkoal105/parallel_nmap.py.git
+
 cd parallel_nmap.py
 
 - usage - parallel normal tcp (normal):
